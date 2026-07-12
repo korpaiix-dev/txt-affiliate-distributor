@@ -1,0 +1,13 @@
+{
+  "name": "txt-affiliate-distributor",
+  "version": "1.0.0",
+  "description": "แยกลิ้ง affiliate (sub_id ต่อช่อง) + กระจายคลิปลง Facebook / YouTube / TikTok - ต่อกับ TXT-Thai-Agent",
+  "main": "src/distributor.js",
+  "type": "commonjs",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node test/test-distributor.js",
+    "example": "node examples/run-distribute.js"
+  },
+  "license": "MIT"
+}
